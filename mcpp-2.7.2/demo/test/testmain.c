@@ -15,6 +15,8 @@
 
 int main(int argc, char *argv[])
 {
+	printf("\n test.\n");
+
     int     i, j;
     char ** tmp_argv;
 
