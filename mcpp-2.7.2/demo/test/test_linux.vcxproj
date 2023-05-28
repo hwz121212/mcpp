@@ -50,7 +50,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>/root/projects/libmcpp/include/;$(SolutionDir)thirdparty\mcpp-2.7.2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>/root/projects/libmcpp/include;$(SolutionDir)thirdparty\mcpp-2.7.2\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>
       </PreprocessorDefinitions>
     </ClCompile>
@@ -62,7 +62,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>/root/projects/libmcpp/include/;$(SolutionDir)thirdparty\mcpp-2.7.2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>/root/projects/libmcpp/include;$(SolutionDir)thirdparty\mcpp-2.7.2\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>
       </PreprocessorDefinitions>
     </ClCompile>
